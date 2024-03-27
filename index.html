@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Masai news</title>
+    <style>
+        #root{
+            width: 95%;
+            margin: auto;
+            border: 1px solid red;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #top-h1{
+            font-size: 48px;
+            font-weight: bolder;
+            margin: 0;
+            text-align: center;
+        }
+
+        #top-h1 + p {
+            font-size: 24px;
+            color: #000000;
+            text-align: center;
+            margin: 0;
+            margin-top: 24px;
+        }
+
+        #grid-container {
+            display: grid;
+            width: 95%;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 15px;
+            margin: auto;
+            margin-top: 60px;
+        }
+
+        .card {
+            width: fit-content;
+            height: 380px;
+            margin: 10px;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            
+        }
+
+        .card:hover {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            cursor: pointer;
+        }
+
+        .card > img {
+            width: 100%;
+            height: 191px;
+            border-radius: 10px;
+            border: 1px solid lightgray;
+
+        }
+
+        .card > .date {
+            color: #3470E4;
+            font-weight: 500;
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .card > p {
+            width: 356px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+      <h1 id="top-h1">Newsroom</h1>
+      <p>We are often covered in the news, for all the right reasons. Learn all about our success stories, placement updates, investment and acquisition announcements, future roadmap and more in our press coverage.</p>
+      <div id="grid-container">
+        <!-- card -->
+         <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Newsroom_3_373bcc5e7c.png" alt="image-1">
+            <p class="date">30 Oct 2023</p>
+            <p class="title">India Quotient-backed Masai School launches AI-powered tech recruitment platform</p>
+            <p style="color: #544D4F; font-weight: 300">The idea behind AI-powered Level Up is to disrupt LinkedIn in the next thr...</p>
+         </div>
+          <!-- card -->
+          <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/image_143_4bd32ade6a.png" alt="image-1">
+            <p class="date">28 Mar 2023</p>
+            <p class="title">Masai School's founder & CEO, Prateek Shukla felicitated at Times 40 Under 40</p>
+            <p  style="color: #544D4F; font-weight: 300">The true heroes in this journey, in my opinion, are the amazing Masai team ...</p>
+         </div>
+          <!-- card -->
+          <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/PR_Thingy_2_f2c52e6fcf.webp" alt="image-1">
+            <p class="date">25 May 2023</p>
+            <p class="title">Beyond Degrees: Embracing Alternative Credentialing and Micro-learning in Tech Recruitment</p>
+            <p  style="color: #544D4F; font-weight: 300">While Masai will find the best fit for your organisation’s needs and offer ...</p>
+         </div>
+          <!-- card -->
+          <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/EI_Image_ef4ad61d8f.png" alt="image-1">
+            <p class="date"> 13 Feb 2024</p>
+            <p class="title">The Skill Emphasizer: Prateek Shukla, CEO & Founder, Masai</p>
+            <p  style="color: #544D4F; font-weight: 300">Over five years, the educational institution has transformed the careers of...</p>
+         </div>
+          <!-- card -->
+          <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/BW_Article_ae95c310d7.jpeg" alt="image-1">
+            <p class="date">01 Feb 2024</p>
+            <p class="title">BW Businessworld Unveils Elite List Of Top 40Under40 In Education</p>
+            <p  style="color: #544D4F; font-weight: 300">Now in its third year, 40under40, presented by BW Education in association ...</p>
+         </div>
+          <!-- card -->
+          <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Newsroom_2_2992584ee8.png" alt="image-1">
+            <p class="date">15 Dec 2023</p>
+            <p class="title">Masai School’s no-upfront-fee model sets a new standard for equitable education</p>
+            <p style="color: #544D4F; font-weight: 300">Masai School CEO champions outcome-based education, where success is tied t...</p>
+         </div>
+          <!-- card -->
+          <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Newsroom_1_66b0b6e139.jpeg" alt="image-1">
+            <p class="date"> 03 Dec 2023</p>
+            <p class="title">Why Generative AI Will Build The Workforce Of The Future</p>
+            <p  style="color: #544D4F; font-weight: 300">If India has to become a global economic superpower, engineers must become ...</p>
+         </div>
+          <!-- card -->
+          <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Newsroom_4_7a4c16499d.png" alt="image-1">
+            <p class="date">04 Nov 2023</p>
+            <p class="title">When Stars Collide: Masai School Shows How Some Support Can Change Life's Course</p>
+            <p  style="color: #544D4F; font-weight: 300">If the learners have pearls of wisdom to share thanks to their journeys, so...</p>
+         </div>
+          <!-- card -->
+          <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/image_36_b87f951f8e.png" alt="image-1">
+            <p class="date">22 July 2023</p>
+            <p class="title">How Masai School is helping launch careers and accelerate growth for Tech Companies by bridging the skill gap</p>
+            <p style="color: #544D4F; font-weight: 300">Masai School is enabling aspirants to go beyond their educational backgroun...</p>
+         </div>
+      </div>
+    </div>
+</body>
+</html>
